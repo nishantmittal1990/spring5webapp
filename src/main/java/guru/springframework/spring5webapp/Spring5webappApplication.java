@@ -7,7 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Spring5webappApplication {
 
 	public static void main(String[] args) {
-
+		System.out.println("*********Starting with Main********");
 		SpringApplication.run(Spring5webappApplication.class, args);
+		System.out.println("*********Main ends***********");
 	}
 }
