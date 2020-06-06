@@ -30,7 +30,7 @@ public class BootStrapData implements CommandLineRunner {
         //Creating publisher object
         Publisher pub = new Publisher();
         // Adding publisher components
-        pub.setName("Hello Pushblisher");
+        pub.setName("Hello");
         pub.setAddressLine1("India");
         pub.setCity("Ludhiana");
         pub.setZip("7887");
